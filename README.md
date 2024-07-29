@@ -73,27 +73,6 @@
 <a href="renukanalluri9@gmail.com"><i class="fas fa-envelope"></i>Email</a>
 </div>
 </footer>
-<script>
-    function showSection(sectionId) {
-        const sections = document.querySelectorAll('.section');
-        sections.forEach(section => {
-            section.style.display = 'none';
-        });
-
-        const activeSection = document.getElementById(sectionId);
-        activeSection.style.display = 'block';
-
-        // Hide default image when a section is shown
-        document.getElementById('default-image').style.display = 'none';
-    }
-
-    document.addEventListener('DOMContentLoaded', () => {
-        // No section is shown by default
-        document.querySelectorAll('.section').forEach(section => {
-            section.style.display = 'none';
-        });
-    });
-</script>
 </body>
 </html>
 
